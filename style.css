@@ -47,3 +47,10 @@ body {
 .btn a:hover {
     transform: scale(1.05);
 }
+
+/* Custom CSS to hide Tenor embed hover icons for Facebook, Twitter and remove tenor */
+.container .tenor-gif-embed .tc-overlay,
+.container .tenor-gif-embed .tc-share,
+.container .tenor-gif-embed .tc-close {
+    display: none !important;
+}
