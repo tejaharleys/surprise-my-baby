@@ -1,0 +1,11 @@
+{
+  "trailingSlash": false,
+  "cleanUrls": true,
+  "functions": {
+    "*.html": {
+      "headers": {
+        "Cache-Control": "public, max-age=86400"
+      }
+    }
+  }
+}
